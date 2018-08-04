@@ -21,6 +21,7 @@ var entityCentres = {
 		individual: {x: w / 3.65, y: h / 3.3},
 	};
 
+// Paradoteo 1: Allages twn xrwmatwn stis mpales
 var fill = d3.scale.ordinal().range(["#ffbc49", "#d549ff", "#49a1ff"]);
 
 var svgCentre = { 
