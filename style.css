@@ -5,6 +5,11 @@ body {
 p {
     margin: 5px 0;
 }
+/*Paradoteo 1: Megethinsi keimenou */
+p:hover{
+    transform: scale(1.5);    
+}
+
 strong {
     font-weight: 700;
 }
