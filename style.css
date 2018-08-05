@@ -6,7 +6,7 @@ p {
     margin: 5px 0;
 }
 /*Paradoteo 1: Megethinsi keimenou */
-p:hover{
+p,h2:hover{
     transform: scale(1.5);
     background: white;
 }
