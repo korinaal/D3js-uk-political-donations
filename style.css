@@ -7,7 +7,7 @@ p {
 }
 /*Paradoteo 1: Megethinsi keimenou */
 p,h2:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     background: white;
 }
 
