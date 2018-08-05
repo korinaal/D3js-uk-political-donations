@@ -6,7 +6,7 @@ p {
     margin: 5px 0;
 }
 /*Paradoteo 1: Megethinsi keimenou */
-p:hover,h2:hover, h3:hover, h5:hover, strong:hover, #a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover{
+p:hover,h2:hover, h3:hover, h5:hover, strong:hover, #a:hover, #b:hover, #c:hover, #d:hover, #e:hover, #f:hover, #zoom:hover{
     transform: scale(1.3);
      opacity: 1;
 }
