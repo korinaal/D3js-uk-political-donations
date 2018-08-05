@@ -95,8 +95,7 @@ function start() {
 		.on("mouseover", mouseover)
 		.on("mouseout", mouseout)
 		.on("click",  function() {
-		var name = d.donor;
- 		window.open("https://www.google.com/search?q=" + name) ;
+ 		window.open("https://www.google.com/search?q=" +  d.donor) ;
 		});
 		// Alternative title based 'tooltips'
 		// node.append("title")
