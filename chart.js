@@ -94,6 +94,7 @@ function start() {
 		.style("fill", function(d) { return fill(d.party); })
 		.on("mouseover", mouseover)
 		.on("mouseout", mouseout)
+		// Paradoteo 1: kartela google anazitisis
 		.on("click",  function(d) {
  		window.open("https://www.google.com/search?q=" +  d.donor) ;
 		});
