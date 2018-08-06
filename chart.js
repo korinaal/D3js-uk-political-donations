@@ -321,7 +321,10 @@ function mouseover(d, i) {
 	var entity = d.entityLabel;
 	var offset = $("svg").offset();
 	
-
+	//Paradoteo 1 : Anaparagwgh onomatos doriti kai posou dwreas
+	
+	responsiveVoice.speak( donor + amount + "pounds");
+	}
 
 	// image url that want to check
 	var imageFile = "https://raw.githubusercontent.com/ioniodi/D3js-uk-political-donations/master/photos/" + donor + ".ico";
