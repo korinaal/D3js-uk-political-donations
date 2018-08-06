@@ -356,8 +356,10 @@ function mouseover(d, i) {
 	}
 
 function mouseout() {
-
 	
+	//Paradoteo 1: Cancel tou hxou otan ginetai mouseout
+		responsiveVoice.cancel();
+		
 	// no more tooltips
 		var mosie = d3.select(this);
 
