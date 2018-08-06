@@ -324,7 +324,6 @@ function mouseover(d, i) {
 	//Paradoteo 1 : Anaparagwgh onomatos doriti kai posou dwreas
 	
 	responsiveVoice.speak( donor + amount + "pounds");
-	}
 
 	// image url that want to check
 	var imageFile = "https://raw.githubusercontent.com/ioniodi/D3js-uk-political-donations/master/photos/" + donor + ".ico";
@@ -357,6 +356,8 @@ function mouseover(d, i) {
 	}
 
 function mouseout() {
+
+	
 	// no more tooltips
 		var mosie = d3.select(this);
 
@@ -365,6 +366,8 @@ function mouseout() {
 		d3.select(".tooltip")
 			.style("display", "none");
 		}
+
+		
 
 $(document).ready(function() {
 		d3.selectAll(".switch").on("click", function(d) {
