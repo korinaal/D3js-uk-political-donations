@@ -31,7 +31,8 @@ li {
     position: absolute; 
 }
 
-/* Initial appearance on load */
+/* Initial appearance on load */ 
+/* Prosthesa to new-view */
 #view-party-type, #view-donor-type, #view-source-type, #new-view {
     display: none;
 }
