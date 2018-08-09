@@ -38,7 +38,7 @@ li {
 }
 
 /* View containers */
-#initial-content, #view-source-type {
+#initial-content, #view-source-type, #new-view {
     left: 650px;
     width: 400px;
 }
