@@ -87,6 +87,7 @@ function transition(name) {
 		$("#view-party-type").fadeOut(250);
 		$("#view-source-type").fadeOut(250);
 		$("#new-view").fadeIn(1000);
+		return amountsType();
 		
 	}	
 	  
@@ -161,7 +162,21 @@ function fundsType() {
 		.on("tick", types)
 		.start();
 }
+function amountsType(){
+		force.gravity(0)
+		.friction(0.8)
+		.charge(function(d) { return -Math.pow(d.radius, 2.0) / 3; })
+		.on("tick", amount)
+		.start();
+	
+}
+function amount(e) {
+	node.each(moveToAmounts(e.alpha));
 
+		node.attr("cx", function(d) { return d.x; })
+			.attr("cy", function(d) {return d.y; });	
+	
+}
 function parties(e) {
 	node.each(moveToParties(e.alpha));
 
@@ -192,7 +207,36 @@ function all(e) {
 			.attr("cy", function(d) {return d.y; });
 }
 
+function moveToAmounts(alpha){
+	return function(d) {
+		var centreY = 135;
+		var centreX = 500;
+		
+		if (d.value >= 5000000) {
+			centreY += 90;
+			centreX = 300;
 
+		} else if (d.value>= 1000000) {
+			centreY += (90*2);
+			centreX = 810;
+
+		} else if (d.value >= 250000) {
+			centreY += (90*3);
+			centreX = 300;
+
+		} else  if (d.value >= 50000) {
+			centreY += (90*4);
+			centreX = 810;
+
+		} else  if (d.value >= 0) {
+			centreY += (90*5);
+			centreX = 300;
+		}
+		
+		d.x += (centreX - d.x) * (brake + 0.02) * alpha * 1.1;
+		d.y += (centreY - d.y) * (brake + 0.02) * alpha * 1.1;
+	};
+}
 function moveToCentre(alpha) {
 	return function(d) {
 		var centreX = svgCentre.x + 75;
