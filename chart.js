@@ -59,6 +59,7 @@ function transition(name) {
 		$("#view-donor-type").fadeOut(250);
 		$("#view-source-type").fadeOut(250);
 		$("#view-party-type").fadeIn(1000);
+		$("#new-view").fadeOut(250);
 		return partyGroup();
 	}
 	if (name === "group-by-donor-type") {
