@@ -80,7 +80,7 @@ function transition(name) {
 		$("#new-view").fadeOut(250);
 		return fundsType();
 	}
-	if (name === "group-by-the-amount-of-the-donation")
+	if (name === "group-by-amount-type") {
 		$("#initial-content").fadeOut(250);
 		$("#value-scale").fadeOut(250);
 		$("#view-donor-type").fadeOut(250);
@@ -88,6 +88,7 @@ function transition(name) {
 		$("#view-source-type").fadeOut(250);
 		$("#new-view").fadeIn(1000);
 		return fundsType();
+	}	
 	  
 	}
 
