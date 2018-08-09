@@ -32,7 +32,7 @@ li {
 }
 
 /* Initial appearance on load */
-#view-party-type, #view-donor-type, #view-source-type {
+#view-party-type, #view-donor-type, #view-source-type, #new-view {
     display: none;
 }
 
