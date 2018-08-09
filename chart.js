@@ -49,6 +49,7 @@ function transition(name) {
 		$("#view-donor-type").fadeOut(250);
 		$("#view-source-type").fadeOut(250);
 		$("#view-party-type").fadeOut(250);
+		$("#new-view").fadeOut(250);
 		return total();
 		//location.reload();
 	}
