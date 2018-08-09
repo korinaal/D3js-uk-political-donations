@@ -225,7 +225,7 @@ function moveToAmounts(alpha){
 			centreX = 300;
 
 		} else  if (d.value >= 0) {
-			centreY = 550;
+			centreY = 600;
 			centreX = 750;
 
 		}
