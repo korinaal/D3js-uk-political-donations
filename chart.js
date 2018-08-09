@@ -87,7 +87,7 @@ function transition(name) {
 		$("#view-party-type").fadeOut(250);
 		$("#view-source-type").fadeOut(250);
 		$("#new-view").fadeIn(1000);
-		return fundsType();
+		
 	}	
 	  
 	}
