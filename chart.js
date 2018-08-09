@@ -68,6 +68,7 @@ function transition(name) {
 		$("#view-party-type").fadeOut(250);
 		$("#view-source-type").fadeOut(250);
 		$("#view-donor-type").fadeIn(1000);
+		$("#new-view").fadeOut(250);
 		return donorType();
 	}
 	if (name === "group-by-money-source") {
@@ -76,6 +77,7 @@ function transition(name) {
 		$("#view-donor-type").fadeOut(250);
 		$("#view-party-type").fadeOut(250);
 		$("#view-source-type").fadeIn(1000);
+		$("#new-view").fadeOut(250);
 		return fundsType();
 	}
 	if (name === "group-by-the-amount-of-the-donation")
