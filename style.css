@@ -99,14 +99,14 @@ li {
     left: -200px;
 }
 #split4{
-    top: 500px;
+    top: 600px;
     left: 400px;
 }
 
 /*	Donor type layout */
 #view-donor-type {
     height: 100%;
-    left: 500px;
+    left:  600px;
     width: 370px;
     
 }
