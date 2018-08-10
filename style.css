@@ -91,12 +91,14 @@ li {
     left: -200px;
 }
 #split2{
-    top: 600px;
-    left: -200px;
-}
-#split3{
     top: 150px;
     left: 400px;
+
+}
+#split3{
+    top: 600px;
+    left: -200px;
+
 }
 #split4{
     top: 600px;
