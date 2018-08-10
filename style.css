@@ -82,6 +82,13 @@ li {
     background: rgba(73, 161, 255, 0.2);
     top: 550px;
 }
+/*Paradoteo 1 : new-view */
+#split1, #split2, #split3, #split4{
+    
+}
+#split1{
+    top: 110px;
+}
 
 /*	Donor type layout */
 #view-donor-type {
