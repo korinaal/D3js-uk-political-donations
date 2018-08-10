@@ -87,10 +87,13 @@ li {
     
 }
 #split1{
-    top: 110px;
-    left: 500px;
+    top: 150px;
+    left: -200px;
 }
-
+#split3{
+    top: 150px;
+    left: 400px;
+}
 /*	Donor type layout */
 #view-donor-type {
     height: 100%;
