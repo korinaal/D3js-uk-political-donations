@@ -90,16 +90,16 @@ li {
     top: 150px;
     left: -200px;
 }
+#split2{
+    top: 650px;
+    left: -200px;
+}
 #split3{
     top: 150px;
     left: 400px;
 }
-#split2{
-    top: 500px;
-    left: -200px;
-}
 #split4{
-    top: 600px;
+    top: 650px;
     left: 400px;
 }
 
