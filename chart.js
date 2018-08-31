@@ -407,7 +407,12 @@ function mouseover(d, i) {
     .style("top", (parseInt(d3.select(this).attr("cy") - (d.radius+150)) + offset.top) + "px")
 		.html(infoBox)
 			.style("display","block");
-	
+	var element = document.createElement("img");
+	element.src = imageFile;
+	element.setAttribute("height", "42");
+	element.setAttribute("width", "42");
+
+	document.getElementById("donations_pics").appendChild(element);
 	
 	}
 
