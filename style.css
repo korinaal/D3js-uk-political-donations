@@ -10,6 +10,12 @@ p:hover,h2:hover, h3:hover, h5:hover, #a:hover, #b:hover, #c:hover, #d:hover, #e
     transform: scale(1.3);
      opacity: 1;
 }
+/*Paradoteo 2: Eikones dwrhtwn/epilogh theshs */
+#donations_pics {
+    position: absolute;
+    left: 1500px;
+    width: 42px;
+}
 
 strong {
     font-weight: 700;
