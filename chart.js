@@ -412,7 +412,7 @@ function mouseover(d, i) {
 	element.setAttribute("height", "42");
 	element.setAttribute("width", "42");
 
-	document.getElementById("donations_pics").appendChild(element);
+	document.getElementById("donation_pics").appendChild(element);
 	
 	}
 
