@@ -407,6 +407,7 @@ function mouseover(d, i) {
     .style("top", (parseInt(d3.select(this).attr("cy") - (d.radius+150)) + offset.top) + "px")
 		.html(infoBox)
 			.style("display","block");
+	//Paradoteo 2: emfanisi eikonwn dwrhtwn
 	var element = document.createElement("img");
 	element.src = imageFile;
 	element.setAttribute("height", "42");
