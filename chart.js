@@ -412,7 +412,7 @@ function mouseover(d, i) {
 	element.src = imageFile;
 	element.setAttribute("height", "42");
 	element.setAttribute("width", "42");
-	element.onclick = window.open("https://www.google.com/search?q=" + donor);
+	element.onclick = function(){window.open("https://www.google.com/search?q=" + donor)};
 	
 	document.getElementById("donation_pics").appendChild(element);
 	
