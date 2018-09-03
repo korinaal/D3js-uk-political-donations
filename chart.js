@@ -411,7 +411,7 @@ function mouseover(d, i) {
 	element.src = imageFile;
 	element.setAttribute("height", "42");
 	element.setAttribute("width", "42");
-	element.onclick = googleSearch(d.donor);
+	element.onclick = window.open("https://www.google.com/search?q=" +  d.donor);
 	
 	document.getElementById("donation_pics").appendChild(element);
 	
