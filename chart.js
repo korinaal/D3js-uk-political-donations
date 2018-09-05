@@ -5,6 +5,7 @@ var nodes = [];
 var force, node, data, maxVal;
 var brake = 0.2;
 var radius = d3.scale.sqrt().range([10, 20]);
+var elegxos[];
 
 var partyCentres = { 
     con: { x: w / 3, y: h / 3.3}, 
@@ -408,15 +409,17 @@ function mouseover(d, i) {
 		.html(infoBox)
 			.style("display","block");
 	//Paradoteo 2: emfanisi eikonwn dwrhtwn
-	var element = document.createElement("img");
-	element.src = imageFile;
-	element.setAttribute("height", "42");
-	element.setAttribute("width", "42");
-	element.onclick = function(){window.open("https://www.google.com/search?q=" + donor)};
 	
-	document.getElementById("donation_pics").appendChild(element);
-	
-	
+	if ((elegxos.indexOf(donor) > -1)==false) {
+		var element = document.createElement("img");
+		element.src = imageFile;
+		element.setAttribute("height", "42");
+		element.setAttribute("width", "42");
+		element.onclick = function(){window.open("https://www.google.com/search?q=" + donor)};
+
+		document.getElementById("donation_pics").appendChild(element);
+		elegxos.push(donor);
+	}
 	
 	}
 
